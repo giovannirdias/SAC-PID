@@ -1,7 +1,8 @@
 import random
 import numpy as np
 
-class ReplayBuffer:
+# Replay buffer
+class buffer:
     def __init__(self, capacidade):
         self.capacidade = capacidade
         self.buffer = []
