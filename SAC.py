@@ -21,7 +21,7 @@ class Q_Function():
 
         return model
 
-class policy():
+class Policy():
     def __init__(self, configs, n_inputs, n_actions, hidden_dim):
         super(Policy, self).__init__
         mean = create_model(n_inputs, n_actions, hidden_dim)
